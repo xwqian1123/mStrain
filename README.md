@@ -20,6 +20,9 @@ jdk-20.0.2 <br/>
 ----------------------------------------******r packages******----------------------------------------<br/>
 ggtree =2.0.4,  ggplot2 =3.3.1,  treeio, ape,  tidyr, geiger,  tibble <br/>
 
+----------------------------------------******source code******----------------------------------------<br/>
+picard =3.1.0, jdk-20.0.2 <br/>
+
 # Installation
 ### 1. Create a new environment <br/>
 Create a new environment using the conda command<br/>
@@ -57,7 +60,7 @@ bzip2 -d sim.fastq.bz2
 or download testing data "sim.fastq" from NCBI and put it into mStrain folder.<br/>
 test_data:PRJNA941032 (https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA941032)；<br/>
 
-Package 'sim.fastq.bz2' successfully unpacked, the tree structure of the mStrain folder is as follows:
+Package 'sim.fastq.bz2' successfully unpacked, the tree structure of the mStrain directory is as follows:
 ```
 mStrain
 ├── install_script
