@@ -3,18 +3,20 @@ mStrain is a novel Yesinia pestis strain or lineage-level identification tool th
 
 # Software Requirements <br/>
 ----------------------------------------******conda packages******----------------------------------------<br/>
-Kraken2 >=2.0.9 <br/>
-Trimmomatic >=0.39 <br/>
-samtools >=1.15 <br/>
-bwa >=0.7.17 <br/>
-bcftools =1.14 <br/>
-bedtools >=2.31.0 <br/>
-pandas >=2.0.3 <br/>
-picard =3.1.0<br/>
-iqtree >=2.2.2.7 <br/>
-ImageMagick =7.1.0_27 <br/>
-jdk-20.0.2 <br/> 
 r-base =3.6.3 <br/>
+bcftools =1.14 <br/>
+samtools >=1.15 <br/>
+iqtree >=2.2.2.7 <br/>
+bwa >=0.7.17 <br/>
+bedtools >=2.31.0 <br/>
+Kraken2 >=2.0.9 <br/>
+ImageMagick =7.1.0_27 <br/>
+pandas >=2.0.3 <br/>
+Trimmomatic >=0.39 <br/>
+
+picard =3.1.0<br/>
+jdk-20.0.2 <br/> 
+
 ----------------------------------------******r packages******----------------------------------------<br/>
 ggtree =2.0.4,  ggplot2 =3.3.1,  treeio, ape,  tidyr, geiger,  tibble <br/>
 
