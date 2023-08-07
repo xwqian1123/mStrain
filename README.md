@@ -46,7 +46,7 @@ NODE: Make sure that the dependent software is installed successfully.The softwa
 The following tests were conducted on the Ubuntu 23.0.4 operating system.
 
 ### Test data
-You can  extract the local file "sim.fas.bz."<br/>
+You can  extract the local file "sim.fastq.bz"<br/>
 ```
 bzip2 -d sim.fastq.bz
 ```
