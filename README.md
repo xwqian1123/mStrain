@@ -48,7 +48,7 @@ NOTE:
 # Usage 
 The following tests were performed on the Ubuntu 23.0.4 operating system.
 
-### Testing data
+### 1. Testing data
 extract the local file "sim.fastq.bz2"<br/>
 ```
 bzip2 -d sim.fastq.bz2
@@ -56,7 +56,7 @@ bzip2 -d sim.fastq.bz2
 or download testing data "sim.fastq" from NCBI and put it into mStrain folder.<br/>
 test_data:PRJNA941032 (https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA941032)；<br/>
 
-### Folder structure
+#### Folder structure
 ```
 mStrain
 ├── install_script
@@ -92,11 +92,12 @@ mStrain
 ├── sim.fastq
 └── test.fq.ls
 ```
-### example：
+### 2. run the program with testing data：
 ```
 chmod +x run_mStrain.sh
 ./run_mStrain.sh
 ```
+NOTE:
 Explanation of parameters in run_mStrain.sh
 ```
 ``python ./main_code/process.py -i test.fq.ls -r ./ref/CO92.chr.fasta -o sim -m ./ref/133s_2298p.txt -f ./ref/133strain_branch_type.list -g IP32953_outgroup -trim_db ./ref/trimmomatic.fa -d 3 -picardpath ./packages/picard.jar -t 4 -javapath ./packages/jdk-20.0.2/bin/java``
