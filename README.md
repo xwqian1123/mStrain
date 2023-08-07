@@ -26,7 +26,7 @@ conda activate py39
 ### 2. Clone this project <br/>
 You can clone it to your local computer using Git<br/>
 ```
-git clone  https://github.com/xwqian1123/mStrain.git
+git clone https://github.com/xwqian1123/mStrain.git
 ```
 ### 3. Install the required dependencies software <br/>
 You can run the script(run_install.sh) to install r-base=3.6.3, bcftools=1.14, samtools, iqtree, bwa, bedtools, kraken2, imagemagick, pandas, trimmomatic.<br/>
