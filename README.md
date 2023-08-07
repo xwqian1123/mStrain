@@ -94,7 +94,7 @@ mStrain
 chmod +x run_mStrain.sh
 ./run_mStrain.sh
 ```
-Explanation of parameters
+Explanation of parameters in run_mStrain.sh
 ```
 ``python ./main_code/process.py -i test.fq.ls -r ./ref/CO92.chr.fasta -o sim -m ./ref/133s_2298p.txt -f ./ref/133strain_branch_type.list -g IP32953_outgroup -trim_db ./ref/trimmomatic.fa -d 3 -picardpath ./packages/picard.jar -t 4 -javapath ./packages/jdk-20.0.2/bin/java``
 
