@@ -1,4 +1,4 @@
-# mStrain
+# General Information
 High-resolution target pathogen detection using metagenomic sequence data represents a major challenge due to the low concentration of target pathogens in samples. We introduced mStrain, a novel Yesinia pestis strain or lineage-level identification tool that utilizes metagenomic data. mStrain successfully identified Y. pestis at the strain/lineage level by extracting sufficient information regarding single nucleotide polymorphisms (SNPs), which can therefore be an effective tool for identification and source tracking of Y. pestis based on metagenomic data during plague outbreak.<br/>
 
 # Software Requirements <br/>
