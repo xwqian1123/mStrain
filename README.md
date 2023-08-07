@@ -21,7 +21,7 @@ ggtree =2.0.4,  ggplot2 =3.3.1,  treeio, ape,  tidyr, geiger,  tibble <br/>
 # Installation
 ### 1. Create a new environment <br/>
 Create a new environment using the conda command.<br/>
-```Bash
+```
 conda create -n py39 python=3.9.16
 ```
 Activate the created environment.<br/>
