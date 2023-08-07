@@ -35,7 +35,7 @@ Clone this repository to local using git<br/>
 ```
 git clone https://github.com/xwqian1123/mStrain.git
 ```
-Run the script 'run_install.sh' in the mStrain directory to install conda packages and R packages<br/>
+Run the script 'run_install.sh' in the mStrain directory to install conda packages, R packages and jdk-20.0.2<br/>
 ```
 cd mStrain
 chmod +x run_install.sh
