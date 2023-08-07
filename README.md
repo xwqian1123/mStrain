@@ -10,7 +10,7 @@ bcftools =1.14 <br/>
 bedtools >=2.31.0 <br/>
 pandas >=2.0.3 <br/>
 picard =3.1.0<br/>
-iqtree >=1.6.5 <br/>
+iqtree >=2.2.2.7 <br/>
 ImageMagick =7.1.0_27 <br/>
 jdk-20.0.2 <br/> 
 R =3.6.3 <br/>
