@@ -35,7 +35,7 @@ git clone https://github.com/xwqian1123/mStrain.git
 ```
 ### 3. Install the required dependencies <br/>
 Run the script file run_install.sh to install r-base=3.6.3, bcftools=1.14, samtools, iqtree, bwa, bedtools, kraken2, imagemagick, pandas, trimmomatic.<br/>
-```Bash
+```
 cd mStrain
 chmod +x run_install.sh
 ./run_install.sh
@@ -50,7 +50,7 @@ The following tests were performed on the Ubuntu 23.0.4 operating system.
 
 ### Testing data
 extract the local file "sim.fastq.bz2"<br/>
-```Bash
+```
 bzip2 -d sim.fastq.bz2
 ```
 or download testing data "sim.fastq" from NCBI and put it into mStrain folder.<br/>
@@ -93,7 +93,7 @@ mStrain
 └── test.fq.ls
 ```
 ### example：
-```Bash
+```
 chmod +x run_mStrain.sh
 ./run_mStrain.sh
 ```
