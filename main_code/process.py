@@ -18,7 +18,7 @@ print(f2path)
 print(fd3path)
 
 # map raw to ref
-def map_refseq(input_file,out_dir,ref_seq,n,thread,k=0,kraken_database=0):
+def map_refseq(input_file,out_dir,ref_seq,n,thread,k=0,kraken_db=0):
     try:
         fidpath = os.path.join(fd3path, input_file)
         with open ('step_1.sh','w') as d:
@@ -45,9 +45,9 @@ def map_refseq(input_file,out_dir,ref_seq,n,thread,k=0,kraken_database=0):
                             d.write('bwa mem -t {} {} {} {} |samtools sort -@ {} - | samtools view -bF {} - > {}.map.bam \n'.format(thread,ref_seq,arr[1],arr[2],thread,n,sample_file))
                     if len(arr) == 2:
                         if k==1:
-                            d.write('{} -db {} --output {} --report {}.report --classified-out {}.out --threads 50 {} {} \n'.format(kraken_db,sample_file,sample_file,sample_file,arr[1],arr[2]))
+                            d.write('kraken2 -db {} --output {} --report {}.report --classified-out {}.out --threads 50 {} \n'.format(kraken_db,sample_file,sample_file,sample_file,arr[1]))
                             d.write("awk -F '\\t' '$3==632 {}' {} > {}.txt\n".format('{print $2}',sample_file,sample_file))
-                            d.write('seqkit grep -f {}.txt {} {}> {}.fq\n'.format(sample_file,arr[1],arr[2],sample_file))
+                            d.write('seqkit grep -f {}.txt {}> {}.fq\n'.format(sample_file,arr[1],sample_file))
                             d.write('bwa mem -t {} {} {}.fq |samtools sort -@ {} - | samtools view  -bF {} - > {}.map.bam \n'.format(thread,ref_seq,sample_file,thread,n,sample_file))
                             d.write('rm -rf {}\n'.format(sample_file))
                             d.write('rm -rf {}.out\n'.format(sample_file))
