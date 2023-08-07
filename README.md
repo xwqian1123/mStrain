@@ -34,7 +34,7 @@ Clone this project to your local computer using git<br/>
 git clone https://github.com/xwqian1123/mStrain.git
 ```
 ### 3. Install the required dependencies <br/>
-Run the script file run_install.sh to install r-base=3.6.3, bcftools=1.14, samtools, iqtree, bwa, bedtools, kraken2, imagemagick, pandas, trimmomatic.<br/>
+Run the file run_install.sh to install r-base=3.6.3, bcftools=1.14, samtools, iqtree, bwa, bedtools, kraken2, imagemagick, pandas, trimmomatic.<br/>
 ```
 cd mStrain
 chmod +x run_install.sh
