@@ -10,6 +10,7 @@ bcftools >=1.9 <br/>
 picard =3.1.0<br/>
 iqtree >=1.6.5 <br/>
 ImageMagick =7.1.0_27 <br/>
+Java =JDK-20.0.2 <br/> 
 R: ggtree =2.0.4, ggplot2 =3.3.1, treeio, ape, tidyr, geiger, tibble <br/>
 
 # Installation
