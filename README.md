@@ -15,12 +15,18 @@ R: ggtree =2.0.4, ggplot2 =3.3.1, treeio, ape, tidyr, geiger, tibble <br/>
 # Installation
 ### 1. Create a new environment <br/>
 To create a new environment, you should use the conda command.<br/>
-``conda create -n py39 python=3.9.16 ``<br/>
+```
+conda create -n py39 python=3.9.16
+```
 Activate the created environment.<br/>
-``conda activate py39``
+```
+conda activate py39
+```
 ### 2. Clone this project <br/>
 You can clone it to your local computer using Git<br/>
-``git clone  https://github.com/xwqian1123/mStrain.git ``<br/>
+```
+git clone  https://github.com/xwqian1123/mStrain.git
+```
 ### 3. Install the required dependencies software <br/>
 You can run the script(run_install.sh) to install r-base=3.6.3, bcftools=1.14, samtools, iqtree, bwa, bedtools, kraken2, imagemagick, pandas, trimmomatic.<br/>
 ``cd mStrain``<br/>
@@ -34,7 +40,6 @@ NODE: Make sure that the dependent software is installed successfully.The softwa
 You can  extract the local file "sim.fas.bz."<br/>
 ```
 bzip2 -d sim.fastq.bz
-
 ```
 You can also download test data from NCBI and put sim.fastq in the mStrain folder.<br/>
 test_data:PRJNA941032 (https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA941032)；<br/>
