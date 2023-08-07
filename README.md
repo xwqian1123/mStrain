@@ -7,10 +7,13 @@ Trimmomatic >=0.38 <br/>
 samtools >=1.9 <br/>
 bwa >=0.7.17 <br/>
 bcftools >=1.9 <br/>
+bedtools >=2.31 <br/>
+pandas >=2.0.3 <br/>
 picard =3.1.0<br/>
 iqtree >=1.6.5 <br/>
 ImageMagick =7.1.0_27 <br/>
 jdk-20.0.2 <br/> 
+R 3.6.3
 R: ggtree =2.0.4, ggplot2 =3.3.1, treeio, ape, tidyr, geiger, tibble <br/>
 
 # Installation
