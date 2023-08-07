@@ -20,20 +20,20 @@ ggtree =2.0.4,  ggplot2 =3.3.1,  treeio, ape,  tidyr, geiger,  tibble <br/>
 
 # Installation
 ### 1. Create a new environment <br/>
-create a new environment using the conda command.<br/>
+Create a new environment using the conda command.<br/>
 ```
 conda create -n py39 python=3.9.16
 ```
-activate the created environment.<br/>
+Activate the created environment.<br/>
 ```
 conda activate py39
 ```
 ### 2. Install dependencies required for this project <br/>
-clone this repository to local using git<br/>
+Clone this repository to local using git<br/>
 ```
 git clone https://github.com/xwqian1123/mStrain.git
 ```
-run the file 'run_install.sh' in the mStrain to install r-base=3.6.3, bcftools=1.14, samtools, iqtree, bwa, bedtools, kraken2, imagemagick, pandas, trimmomatic.<br/>
+Run the file 'run_install.sh' in the mStrain to install r-base=3.6.3, bcftools=1.14, samtools, iqtree, bwa, bedtools, kraken2, imagemagick, pandas, trimmomatic.<br/>
 ```
 cd mStrain
 chmod +x run_install.sh
