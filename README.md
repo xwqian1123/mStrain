@@ -29,7 +29,7 @@ Activate the created environment.<br/>
 conda activate py39
 ```
 ### 2. Clone this project <br/>
-You can clone it to your local computer using Git<br/>
+Clone this project to your local computer using git<br/>
 ```
 git clone https://github.com/xwqian1123/mStrain.git
 ```
