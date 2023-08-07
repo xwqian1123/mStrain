@@ -95,6 +95,7 @@ mStrain
 ```
 ### 2. run mStrain code with testing data：
 ```
+cd mStrain
 chmod +x run_mStrain.sh
 ./run_mStrain.sh
 ```
