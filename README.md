@@ -25,7 +25,7 @@ Create a new environment using the conda command.<br/>
 conda create -n py39 python=3.9.16
 ```
 Activate the created environment.<br/>
-```Bash
+```
 conda activate py39
 ```
 ### 2. Clone the repo <br/>
