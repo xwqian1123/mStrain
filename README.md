@@ -42,7 +42,7 @@ chmod +x run_install.sh
 ```
 NOTE: 
 - Make sure that the dependencies are installed successfully.
-- The package picard can find in https://github.com/broadinstitute/picard.
+- The picard package can be found at https://github.com/broadinstitute/picard.
 - Some R packages that this project depends on have been packaged and placed in the packages directory.
 
 # Usage 
