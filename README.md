@@ -40,7 +40,7 @@ cd mStrain
 chmod +x run_install.sh
 ./run_install.sh
 ```
-NODE: Make sure that the dependent software is installed successfully.The software package "picard(https://github.com/broadinstitute/picard)" and some R packages on which this project depends, has been packaged and placed in the packages directory.
+NOTE: Make sure that the dependent packages are installed successfully.The software package "picard(https://github.com/broadinstitute/picard)" and some R packages on which this project depends, has been packaged and placed in the packages directory.
 
 # Usage 
 The following tests were conducted on the Ubuntu 23.0.4 operating system.
