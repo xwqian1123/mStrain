@@ -53,7 +53,7 @@ extract the local file "sim.fastq.bz"<br/>
 ```
 bzip2 -d sim.fastq.bz
 ```
-or download test data sim.fastq from NCBI and put it into mStrain folder.<br/>
+or download test data "sim.fastq" from NCBI and put it into mStrain folder.<br/>
 test_data:PRJNA941032 (https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA941032)；<br/>
 
 ### Folder structure
