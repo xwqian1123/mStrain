@@ -94,7 +94,7 @@ mStrain
 ├── sim.fastq
 └── test.fq.ls
 ```
-### 2. run mStrain code with testing data：
+### 2. Run mStrain code with testing data：
 ```
 chmod +x run_mStrain.sh
 ./run_mStrain.sh
