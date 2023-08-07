@@ -1,1 +1,1 @@
-sim	/home/fiona/David/mStrain_test/mStrain/sim.fastq
+sim	/home/mStrain/sim.fastq
