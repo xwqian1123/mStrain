@@ -25,17 +25,17 @@ Create a new environment using the conda command.<br/>
 conda create -n py39 python=3.9.16
 ```
 Activate the created environment.<br/>
-```
+```Bash
 conda activate py39
 ```
 ### 2. Clone the repo <br/>
 Clone this project to your local computer using git<br/>
-```
+```Bash
 git clone https://github.com/xwqian1123/mStrain.git
 ```
 ### 3. Install the required dependencies <br/>
 Run the script file run_install.sh to install r-base=3.6.3, bcftools=1.14, samtools, iqtree, bwa, bedtools, kraken2, imagemagick, pandas, trimmomatic.<br/>
-```
+```Bash
 cd mStrain
 chmod +x run_install.sh
 ./run_install.sh
@@ -50,7 +50,7 @@ The following tests were performed on the Ubuntu 23.0.4 operating system.
 
 ### Testing data
 extract the local file "sim.fastq.bz2"<br/>
-```
+```Bash
 bzip2 -d sim.fastq.bz2
 ```
 or download testing data "sim.fastq" from NCBI and put it into mStrain folder.<br/>
@@ -93,12 +93,12 @@ mStrain
 └── test.fq.ls
 ```
 ### example：
-```
+```Bash
 chmod +x run_mStrain.sh
 ./run_mStrain.sh
 ```
 Explanation of parameters in run_mStrain.sh
-```
+```Bash
 ``python ./main_code/process.py -i test.fq.ls -r ./ref/CO92.chr.fasta -o sim -m ./ref/133s_2298p.txt -f ./ref/133strain_branch_type.list -g IP32953_outgroup -trim_db ./ref/trimmomatic.fa -d 3 -picardpath ./packages/picard.jar -t 4 -javapath ./packages/jdk-20.0.2/bin/java``
 
 -r,  "--ref_seq",    help="reference genome file name"
