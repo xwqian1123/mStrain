@@ -48,12 +48,12 @@ NOTE:
 # Usage 
 The following tests were performed on the Ubuntu 23.0.4 operating system.
 
-### Test data
+### Testing data
 extract the local file "sim.fastq.bz"<br/>
 ```
 bzip2 -d sim.fastq.bz
 ```
-or download test data "sim.fastq" from NCBI and put it into mStrain folder.<br/>
+or download testing data "sim.fastq" from NCBI and put it into mStrain folder.<br/>
 test_data:PRJNA941032 (https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA941032)；<br/>
 
 ### Folder structure
