@@ -3,8 +3,8 @@ High-resolution target pathogen detection using metagenomic sequence data repres
 
 # Software requirements <br/>
 Kraken2 >=2.0.9 <br/>
-Trimmomatic >=0.38 <br/>
-samtools >=1.9 <br/>
+Trimmomatic >=0.39 <br/>
+samtools >=1.15 <br/>
 bwa >=0.7.17 <br/>
 bcftools =1.14 <br/>
 bedtools >=2.31.0 <br/>
