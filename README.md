@@ -52,6 +52,7 @@ The following tests were performed on the Ubuntu 23.0.4 operating system.
 ### 1. Testing data
 unpack the compressed package 'sim.fastq.bz2' in mStrain directory using the bzip2 command<br/>
 ```
+cd mStrain
 bzip2 -d sim.fastq.bz2
 ```
 or download testing data "sim.fastq" from NCBI and place it into mStrain folder.<br/>
