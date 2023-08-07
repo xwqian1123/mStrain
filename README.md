@@ -30,7 +30,7 @@ conda activate py39
 ```
 ### 2. Clone the repo <br/>
 Clone this project to your local computer using git<br/>
-```Bash
+```
 git clone https://github.com/xwqian1123/mStrain.git
 ```
 ### 3. Install the required dependencies <br/>
