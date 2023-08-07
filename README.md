@@ -49,7 +49,7 @@ NOTE:
 The following tests were performed on the Ubuntu 23.0.4 operating system.
 
 ### 1. Testing data
-unpack the file 'sim.fastq.bz2' using bzip2 command<br/>
+unpack the file 'sim.fastq.bz2' using the bzip2 command<br/>
 ```
 bzip2 -d sim.fastq.bz2
 ```
