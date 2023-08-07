@@ -31,9 +31,14 @@ NODE: Make sure that the dependent software is installed successfully.The softwa
 # Usage Examples
 
 ### Test data
-
-Download test data from NCBI and put sim.fastq in the mStrain folder.<br/>
+You can Download test data from NCBI and put sim.fastq in the mStrain folder.<br/>
 test_data:PRJNA941032 (https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA941032)；<br/>
+
+```
+bzip2 -d ./sim.fastq.bz
+
+```
+
 
 ### Folder structure
 ```
