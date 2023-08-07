@@ -51,7 +51,7 @@ The following tests were performed on the Ubuntu 23.0.4 operating system.
 ### Testing data
 extract the local file "sim.fastq.bz"<br/>
 ```
-bzip2 -d sim.fastq.bz
+bzip2 -d sim.fastq.bz2
 ```
 or download testing data "sim.fastq" from NCBI and put it into mStrain folder.<br/>
 test_data:PRJNA941032 (https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA941032)；<br/>
