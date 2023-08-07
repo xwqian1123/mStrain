@@ -55,7 +55,7 @@ unpack the compressed package 'sim.fastq.bz2' in mStrain directory using the bzi
 cd mStrain
 bzip2 -d sim.fastq.bz2
 ```
-or download testing data "sim.fastq" from NCBI and place it into mStrain folder.<br/>
+or download testing data 'sim.fastq' from NCBI and place it into mStrain folder.<br/>
 test_data:PRJNA941032 (https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA941032)；<br/>
 
 Package 'sim.fastq.bz2' successfully unpacked, the tree structure of the mStrain directory is as follows:
