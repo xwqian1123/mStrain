@@ -28,13 +28,12 @@ Activate the created environment.<br/>
 ```
 conda activate py39
 ```
-### 2. Clone the repo <br/>
-Clone this project to local using git<br/>
+### 2. Install dependencies required for this project <br/>
+Clone this repository to local using git<br/>
 ```
 git clone https://github.com/xwqian1123/mStrain.git
 ```
-### 3. Install the required dependencies <br/>
-Run the file run_install.sh to install r-base=3.6.3, bcftools=1.14, samtools, iqtree, bwa, bedtools, kraken2, imagemagick, pandas, trimmomatic.<br/>
+Run the file 'run_install.sh' to install r-base=3.6.3, bcftools=1.14, samtools, iqtree, bwa, bedtools, kraken2, imagemagick, pandas, trimmomatic.<br/>
 ```
 cd mStrain
 chmod +x run_install.sh
