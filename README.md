@@ -14,9 +14,6 @@ ImageMagick =7.1.0_27 <br/>
 pandas >=2.0.3 <br/>
 Trimmomatic >=0.39 <br/>
 
-picard =3.1.0<br/>
-jdk-20.0.2 <br/> 
-
 ----------------------------------------******r packages******----------------------------------------<br/>
 ggtree =2.0.4,  ggplot2 =3.3.1,  treeio, ape,  tidyr, geiger,  tibble <br/>
 
