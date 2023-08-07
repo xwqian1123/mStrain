@@ -56,7 +56,7 @@ bzip2 -d sim.fastq.bz2
 or download testing data "sim.fastq" from NCBI and put it into mStrain folder.<br/>
 test_data:PRJNA941032 (https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA941032)；<br/>
 
-After the test data is extracted, the tree structure of the ms folder is as follows
+Package 'sim.fastq.bz2' successfully unpacked, the tree structure of the mStrain folder is as follows:
 ```
 mStrain
 ├── install_script
