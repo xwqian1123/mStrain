@@ -1,7 +1,8 @@
 # mStrain
 High-resolution target pathogen detection using metagenomic sequence data represents a major challenge due to the low concentration of target pathogens in samples. We introduced mStrain, a novel Yesinia pestis strain or lineage-level identification tool that utilizes metagenomic data. mStrain successfully identified Y. pestis at the strain/lineage level by extracting sufficient information regarding single nucleotide polymorphisms (SNPs), which can therefore be an effective tool for identification and source tracking of Y. pestis based on metagenomic data during plague outbreak.<br/>
 
-# Software requirements <br/>
+# Software Requirements <br/>
+----------------------------------------******conda packages******----------------------------------------<br/>
 Kraken2 >=2.0.9 <br/>
 Trimmomatic >=0.39 <br/>
 samtools >=1.15 <br/>
@@ -14,6 +15,7 @@ iqtree >=2.2.2.7 <br/>
 ImageMagick =7.1.0_27 <br/>
 jdk-20.0.2 <br/> 
 R =3.6.3 <br/>
+----------------------------------------******R packages******----------------------------------------<br/>
 R: ggtree =2.0.4, ggplot2 =3.3.1, treeio, ape, tidyr, geiger, tibble <br/>
 
 # Installation
@@ -41,6 +43,7 @@ chmod +x run_install.sh
 NODE: Make sure that the dependent software is installed successfully.The software package "picard(https://github.com/broadinstitute/picard)" and some R packages on which this project depends, has been packaged and placed in the packages directory.
 
 # Usage Examples
+The following tests were conducted on the Ubuntu 23.0.4 operating system.
 
 ### Test data
 You can  extract the local file "sim.fas.bz."<br/>
