@@ -29,9 +29,11 @@ git clone  https://github.com/xwqian1123/mStrain.git
 ```
 ### 3. Install the required dependencies software <br/>
 You can run the script(run_install.sh) to install r-base=3.6.3, bcftools=1.14, samtools, iqtree, bwa, bedtools, kraken2, imagemagick, pandas, trimmomatic.<br/>
-``cd mStrain``<br/>
-``chmod +x run_install.sh``<br/>
-``./run_install.sh``<br/>
+```
+cd mStrain
+chmod +x run_install.sh
+./run_install.sh
+```
 NODE: Make sure that the dependent software is installed successfully.The software package "picard(https://github.com/broadinstitute/picard)" and some R packages on which this project depends, has been packaged and placed in the packages directory.
 
 # Usage Examples
