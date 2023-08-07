@@ -41,7 +41,7 @@ chmod +x run_install.sh
 ./run_install.sh
 ```
 NOTE: 
-- Make sure that the dependent packages are installed successfully.
+- Make sure that the dependencies are installed successfully.
 - The software package "picard(https://github.com/broadinstitute/picard)" and some R packages on which this project depends, has been packaged and placed in the packages directory.
 
 # Usage 
