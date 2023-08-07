@@ -16,7 +16,7 @@ ImageMagick =7.1.0_27 <br/>
 jdk-20.0.2 <br/> 
 R =3.6.3 <br/>
 ----------------------------------------******R packages******----------------------------------------<br/>
-ggtree =2.0.4, ggplot2 =3.3.1, treeio, ape, tidyr, geiger, tibble <br/>
+ggtree =2.0.4,  ggplot2 =3.3.1,  treeio, ape,  tidyr, geiger,  tibble <br/>
 
 # Installation
 ### 1. Create a new environment <br/>
