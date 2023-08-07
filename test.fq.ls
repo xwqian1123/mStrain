@@ -1,1 +1,1 @@
-sim	/home/mStrain/sim.fastq
+sim	./sim.fastq
