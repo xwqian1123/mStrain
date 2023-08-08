@@ -50,7 +50,7 @@ sstr2="export PATH=\"\$JAVA_HOME/bin:\$PATH\""
 sstr3="export LD_LIBRARY_PATH=\"\$JAVA_HOME/lib:\$LD_LIBRARY_PATH\""
 # Define an array with multiple variables
 parr=("$sstr1" "$sstr2" "$sstr3")
-# Use a loop to traverse each element in the array and append it to the bashrc file
+# Use a loop to traverse each element in the array and append it to the ~/.bashrc or ~/.zshrc file
 for index in "${!parr[@]}"; do
     element="${parr[$index]}"  
     echo "The index[$index] is: $element"
