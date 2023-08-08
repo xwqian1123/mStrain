@@ -7,26 +7,24 @@ shell_name=~/.$(basename "$SHELL")rc
 echo -e "******************************** Install packages using conda ********************************\n[ r-base=3.6.3  bcftools=1.14  samtools  iqtree  bwa  bedtools  kraken2  imagemagick  pandas  trimmomatic ]\n"
 conda install -y r-base=3.6.3 bcftools=1.14 samtools iqtree bwa bedtools kraken2 imagemagick pandas trimmomatic
 
-echo "********************************** Install the R package **********************************"
+echo "************************************* Install packages using R *************************************"
 Rscript $path0/mStrain/install_script/RPackage.r
 
-echo "************** Check if the jdk-20_linux-x64_bin.tar.gz and jdk-20.0.2 exists **************"
+echo "******************************** install jdk-20.0.2 using source code ********************************"
+# Check if the jdk-20_linux-x64_bin.tar.gz and jdk-20.0.2 exists
 if [ -e "jdk-20_linux-x64_bin.tar.gz" ]; then
     echo "File jdk-20_linux-x64_bin.tar.gz exists, delete jdk-20_linux-x64_bin.tar.gz"
     rm -rf jdk-20_linux-x64_bin.tar.gz
 fi
-
 if [ -e "jdk-20.0.2" ]; then
     echo "The directory $path0/mStrain/jdk-20.0.2 exists, and it is being deleted."
     rm -rf jdk-20.0.2
 fi
-
 if [ -e "$path0/mStrain/packages/jdk-20.0.2" ]; then
     echo "The directory $path0/mStrain/packages/jdk-20.0.2 exists, and it is being deleted."
     rm -rf $path0/mStrain/packages/jdk-20.0.2
 fi
-
-echo "*************************** download jdk-20_linux-x64_bin.tar.gz ***************************"
+# Download jdk-20_linux-x64_bin.tar.gz
 wget https://download.oracle.com/java/20/latest/jdk-20_linux-x64_bin.tar.gz -O jdk-20_linux-x64_bin.tar.gz
 # Obtain the sha256 checksum provided by the official publisher
 expected_checksum="499b59be8e3613c223e76f101598d7c28dc04b8e154d860edf2ed05980c67526"
