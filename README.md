@@ -35,10 +35,13 @@ Clone this repository to local using git <br/>
 ```
 git clone https://github.com/xwqian1123/mStrain.git
 ```
-Run the script 'run_install.sh' in the mStrain directory to install conda packages, R packages and jdk-20.0.2<br/>
+Add executable permission to the script 'run_install.sh' in the directory mStrain <br/>
 ```
 cd mStrain
 chmod +x run_install.sh
+```
+Run the script 'run_install.sh' in the directory mStrain to install conda packages, R packages and jdk-20.0.2<br/>
+```
 ./run_install.sh
 ```
 NOTE: 
@@ -50,15 +53,15 @@ NOTE:
 The following tests were performed on the Ubuntu 23.0.4 operating system.
 
 ### 1. Testing data
-unpack the compressed package 'sim.fastq.bz2' in mStrain directory using the bzip2 command<br/>
+Unpack the file 'sim.fastq.bz2' in the directory mStrain using the bzip2 command<br/>
 ```
 cd mStrain
 bzip2 -d sim.fastq.bz2
 ```
-or download testing data 'sim.fastq' from NCBI and place it into mStrain folder.<br/>
+or download testing data 'sim.fastq' from NCBI and place it into the directory mStrain.<br/>
 test_data:PRJNA941032 (https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA941032)；<br/>
 
-Package 'sim.fastq.bz2' successfully unpacked, the tree structure of the mStrain directory is as follows:
+Package 'sim.fastq.bz2' successfully unpacked, the tree structure of the directory mStrain is as follows:
 ```
 mStrain
 ├── install_script
@@ -95,8 +98,12 @@ mStrain
 └── test.fq.ls
 ```
 ### 2. Run mStrain with testing data：
+Add executable permission to the script 'run_mStrain.sh' in the directory mStrain <br/>
 ```
 chmod +x run_mStrain.sh
+```
+Run the script 'run_mStrain.sh' in the directory mStrain with testing data <br/>
+```
 ./run_mStrain.sh
 ```
 NOTE:
