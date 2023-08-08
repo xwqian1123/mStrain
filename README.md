@@ -18,7 +18,7 @@ Trimmomatic >=0.39 <br/>
 ggtree =2.0.4,  ggplot2 =3.3.1,  treeio, ape,  tidyr, geiger,  tibble <br/>
 
 ----------------------------------------******source code******----------------------------------------<br/>
-picard =3.1.0, jdk-20.0.2 <br/>
+jdk-20.0.2, picard =3.1.0 <br/>
 
 # Installation
 ### 1. Create a new environment <br/>
