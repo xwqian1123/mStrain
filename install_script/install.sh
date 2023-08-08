@@ -55,7 +55,7 @@ for index in "${!parr[@]}"; do
     element="${parr[$index]}"  
     echo "The index[$index] is: $element"
     if grep -q "^\s*${parr[$index]}" "$shell_name"; then
-        echo "\"${parr[$index]}\" already exists, no longer written to \"$shell_name\""
+        echo "\"${parr[$index]}\" already exists, no longer written to the \"$shell_name\""
     else
         echo "The \"${parr[$index]}\" does not exist and will be written to the \"$shell_name\""
         echo "${parr[$index]}" >> "$shell_name"
