@@ -4,7 +4,7 @@ path0=$(dirname "$PWD")
 jhpath=$path0/mStrain/packages/jdk-20.0.2
 shell_name=~/.$(basename "$SHELL")rc
 
-echo -e "******************************** Install packages using conda: ********************************\n[ r-base=3.6.3  bcftools=1.14  samtools  iqtree  bwa  bedtools  kraken2  imagemagick  pandas  trimmomatic ]\n"
+echo -e "******************************** Install packages using conda ********************************\n[ r-base=3.6.3  bcftools=1.14  samtools  iqtree  bwa  bedtools  kraken2  imagemagick  pandas  trimmomatic ]\n"
 conda install -y r-base=3.6.3 bcftools=1.14 samtools iqtree bwa bedtools kraken2 imagemagick pandas trimmomatic
 
 echo "********************************** Install the R package **********************************"
