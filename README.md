@@ -32,6 +32,7 @@ conda activate mStrain
 ```
 NOTE:
 - mStrain is a customizable name for a new environment created using the conda command
+- Installation and usage are completed in this environment
 ### 2. Install dependencies required for mStrain <br/>
 Clone this repository to local using git <br/>
 ```
