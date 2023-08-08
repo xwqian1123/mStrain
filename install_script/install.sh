@@ -4,13 +4,13 @@ path0=$(dirname "$PWD")
 jhpath=$path0/mStrain/packages/jdk-20.0.2
 shell_name=~/.$(basename "$SHELL")rc
 
-echo -e "******************************** Install packages using conda ********************************\n[ r-base=3.6.3  bcftools=1.14  samtools  iqtree  bwa  bedtools  kraken2  imagemagick  pandas  trimmomatic ]\n"
+echo -e "******************************** Step1: Install packages using conda ********************************\n[ r-base=3.6.3  bcftools=1.14  samtools  iqtree  bwa  bedtools  kraken2  imagemagick  pandas  trimmomatic ]\n"
 conda install -y r-base=3.6.3 bcftools=1.14 samtools iqtree bwa bedtools kraken2 imagemagick pandas trimmomatic
 
-echo "************************************* Install packages using R *************************************"
+echo "************************************* Step2: Install packages using R *************************************"
 Rscript $path0/mStrain/install_script/RPackage.r
 
-echo "******************************** install jdk-20.0.2 using source code ********************************"
+echo "******************************** Step3: Install jdk-20.0.2 using source code ********************************"
 # Check if the jdk-20_linux-x64_bin.tar.gz and jdk-20.0.2 exists
 if [ -e "jdk-20_linux-x64_bin.tar.gz" ]; then
     echo "File jdk-20_linux-x64_bin.tar.gz exists, delete jdk-20_linux-x64_bin.tar.gz"
@@ -30,7 +30,6 @@ wget https://download.oracle.com/java/20/latest/jdk-20_linux-x64_bin.tar.gz -O j
 expected_checksum="499b59be8e3613c223e76f101598d7c28dc04b8e154d860edf2ed05980c67526"
 # Calculate the SHA-256 checksum of downloaded files
 calculated_checksum=$(sha256sum jdk-20_linux-x64_bin.tar.gz | awk '{print $1}')
-
 # Compare two checksums for equality
 if [ "$expected_checksum" = "$calculated_checksum" ]; then
    echo "sha256sum matching, file jdk-20_linux-x64_bin.tar.gz download completed."
@@ -44,7 +43,7 @@ echo "extracting jdk-20_linux-x64_bin.tar.gz :"
 tar -xzvf jdk-20_linux-x64_bin.tar.gz
 mv jdk-20.0.2  $path0/mStrain/packages
 
-echo "*********************** Configure environment variables for jdk-20.0.2 ***********************"
+# Configure environment variables for jdk-20.0.2 
 # Define the string to search for
 sstr1="export JAVA_HOME=\"$jhpath\""
 sstr2="export PATH=\"\$JAVA_HOME/bin:\$PATH\""
