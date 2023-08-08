@@ -43,7 +43,7 @@ echo "extracting jdk-20_linux-x64_bin.tar.gz :"
 tar -xzvf jdk-20_linux-x64_bin.tar.gz
 mv jdk-20.0.2  $path0/mStrain/packages
 
-# After installing jdk-20.0.2 correctly, configure the environment variables for jdk-20.0.2
+# After installing jdk-20.0.2 successfully, configure the environment variables for jdk-20.0.2
 # Define the string to search for
 sstr1="export JAVA_HOME=\"$jhpath\""
 sstr2="export PATH=\"\$JAVA_HOME/bin:\$PATH\""
