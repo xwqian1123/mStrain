@@ -42,9 +42,9 @@ chmod +x run_install.sh
 ./run_install.sh
 ```
 NOTE: 
-- Make sure that the dependencies are installed successfully.
+- Make sure the dependencies are installed successfully.
 - The picard package can be found at https://github.com/broadinstitute/picard.
-- R packages and picard that this project depends on have been packaged and placed in the mStrain/packages directory.
+- R packages and picard this project depends on have been packaged and placed in the mStrain/packages directory.
 
 # Usage 
 The following tests were performed on the Ubuntu 23.0.4 operating system.
