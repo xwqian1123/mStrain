@@ -24,7 +24,7 @@ def map_refseq(input_file,out_dir,ref_seq,n,thread,k=0,kraken_db=0):
         with open ('step_1.sh','w') as d:
             with open (fidpath,'r') as f:
                 for num, line in enumerate(f):
-                    arr=line.strip().split(' ')
+                    arr=line.strip().split('\t')
                     path_name=os.path.dirname(arr[1])
                     sample_dir=os.path.join(out_dir,arr[0])
                     if os.path.exists(sample_dir):
