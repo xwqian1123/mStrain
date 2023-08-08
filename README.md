@@ -51,17 +51,18 @@ NOTE:
 - Make sure the dependencies are installed successfully.
 - The picard package can be found at https://github.com/broadinstitute/picard.
 - R packages and picard this project depends on have been packaged and placed in the mStrain/packages directory.
+ 
+# Validation
+The following validation of the mStrain was performed on the Ubuntu 23.0.4 operating system.
+### 1. Dataset
+In this work, sim.fastq, a simulated sequencing data set that is randomly extracted and mixed after simulated sequencing by Yesinia pestis EV76(https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/324/805/GCF_000324805.2_EV76-CN/GCF_000324805.2_EV76-CN_genomic.fna.gz) and human genome h38(https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/latest/hg38.fa.gz), is used as a data set to validate mStrain.
 
-# Usage 
-The following tests were performed on the Ubuntu 23.0.4 operating system.
-
-### 1. Testing data
-Unpack the file 'sim.fastq.bz2' in the directory mStrain using the bzip2 command<br/>
+This repository already contains the compressed package of sim.fastq data set. You can unpack the file 'sim.fastq.bz2' in the directory mStrain using the bzip2 command<br/>
 ```
 cd mStrain
 bzip2 -d sim.fastq.bz2
 ```
-or download testing data 'sim.fastq' from NCBI and place it into the directory mStrain.<br/>
+or download 'sim.fastq' from NCBI and place it into the directory mStrain.<br/>
 test_data:PRJNA941032 (https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA941032)；<br/>
 
 Package 'sim.fastq.bz2' successfully unpacked, the tree structure of the directory mStrain is as follows:
@@ -100,7 +101,7 @@ mStrain
 ├── sim.fastq
 └── test.fq.ls
 ```
-### 2. Run mStrain with testing data：
+### 2. Run mStrain with dataset：
 Add executable permission to the script 'run_mStrain.sh' in the directory mStrain <br/>
 ```
 chmod +x run_mStrain.sh
@@ -109,7 +110,14 @@ Run the script 'run_mStrain.sh' in the directory mStrain with testing data <br/>
 ```
 ./run_mStrain.sh
 ```
-NOTE:
+# Usage
+mStrain is an extensible tool that allows users to change parameters to run mStrain.
+### 1.
+
+### 2. 
+
+### 3.
+
 Explanation of parameters in run_mStrain.sh
 ```
 ``python ./main_code/process.py -i test.fq.ls -r ./ref/CO92.chr.fasta -o sim -m ./ref/133s_2298p.txt -f ./ref/133strain_branch_type.list -g IP32953_outgroup -trim_db ./ref/trimmomatic.fa -d 3 -picardpath ./packages/picard.jar -t 4 -javapath ./packages/jdk-20.0.2/bin/java``
