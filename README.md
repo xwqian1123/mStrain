@@ -31,7 +31,7 @@ Activate the created environment<br/>
 conda activate py39
 ```
 NOTE:
-- Py39 is a customizable name for the Conda environment
+- Py39 is a customizable name for a new environment created using the conda command
 ### 2. Install dependencies required for mStrain <br/>
 Clone this repository to local using git <br/>
 ```
