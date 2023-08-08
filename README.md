@@ -22,7 +22,7 @@ picard =3.1.0, jdk-20.0.2 <br/>
 
 # Installation
 ### 1. Create a new environment <br/>
-Create a new environment using the conda command<br/>
+Create a new environment using conda <br/>
 ```
 conda create -n py39 python=3.9.16
 ```
@@ -31,7 +31,7 @@ Activate the created environment<br/>
 conda activate py39
 ```
 ### 2. Install dependencies required for mStrain <br/>
-Clone this repository to local using git<br/>
+Clone this repository to local using git <br/>
 ```
 git clone https://github.com/xwqian1123/mStrain.git
 ```
