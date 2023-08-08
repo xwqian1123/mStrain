@@ -4,13 +4,13 @@ path0=$(dirname "$PWD")
 jhpath=$path0/mStrain/packages/jdk-20.0.2
 shell_name=~/.$(basename "$SHELL")rc
 
-echo -e "******************************** Step1: Install packages using conda ********************************\n[ r-base=3.6.3  bcftools=1.14  samtools  iqtree  bwa  bedtools  kraken2  imagemagick  pandas  trimmomatic ]\n"
+echo -e "******************************** Install_Step1: Install packages using conda ********************************\n[ r-base=3.6.3  bcftools=1.14  samtools  iqtree  bwa  bedtools  kraken2  imagemagick  pandas  trimmomatic ]\n"
 conda install -y r-base=3.6.3 bcftools=1.14 samtools iqtree bwa bedtools kraken2 imagemagick pandas trimmomatic
 
-echo "************************************* Step2: Install packages using R *************************************"
+echo "************************************* Install_Step2: Install packages using R *************************************"
 Rscript $path0/mStrain/install_script/RPackage.r
 
-echo "******************************** Step3: Install jdk-20.0.2 using source code ********************************"
+echo "******************************** Install_Step3: Install jdk-20.0.2 using source code ********************************"
 # Check if the jdk-20_linux-x64_bin.tar.gz and jdk-20.0.2 exists
 if [ -e "jdk-20_linux-x64_bin.tar.gz" ]; then
     echo "File jdk-20_linux-x64_bin.tar.gz exists, delete jdk-20_linux-x64_bin.tar.gz"
@@ -43,7 +43,7 @@ echo "extracting jdk-20_linux-x64_bin.tar.gz :"
 tar -xzvf jdk-20_linux-x64_bin.tar.gz
 mv jdk-20.0.2  $path0/mStrain/packages
 
-# Configure environment variables for jdk-20.0.2 
+# Configure the environment variables for jdk-20.0.2, after installing jdk-20.0.2
 # Define the string to search for
 sstr1="export JAVA_HOME=\"$jhpath\""
 sstr2="export PATH=\"\$JAVA_HOME/bin:\$PATH\""
