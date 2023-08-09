@@ -109,7 +109,7 @@ Run the script 'run_mStrain.sh' in the directory mStrain with data set <br/>
 ./run_mStrain.sh
 ```
 # Usage
-mStrain is an extensible tool that allows users to change i, o, d, t, k, and k_db parameters to run mStrain.<br/>
+mStrain is an extensible tool that allows the user to change the i, o, d, t, k, and k_db parameters to customize the run of mStrain.<br/>
 ### 1.
 
 ### 2. 
