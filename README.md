@@ -104,7 +104,7 @@ Add executable permission to the script 'run_mStrain.sh' in the directory mStrai
 ```
 chmod +x run_mStrain.sh
 ```
-Run the script 'run_mStrain.sh' in the directory mStrain with testing data <br/>
+Run the script 'run_mStrain.sh' in the directory mStrain with data set <br/>
 ```
 ./run_mStrain.sh
 ```
