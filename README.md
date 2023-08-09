@@ -56,10 +56,6 @@ NOTE:
 The following validation of the mStrain was performed on the Ubuntu 23.0.4 operating system.
 ### 1. Dataset
 In this work, sim.fastq, a simulated sequencing data set randomly extracted and mixed after simulated sequencing by Yesinia pestis [EV76](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/324/805/GCF_000324805.2_EV76-CN/GCF_000324805.2_EV76-CN_genomic.fna.gz) and human genome [hg38](https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/latest/hg38.fa.gz), is used as a data set to validate mStrain.<br/>
-- EV76: https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/324/805/GCF_000324805.2_EV76-CN/GCF_000324805.2_EV76-CN_genomic.fna.gz<br/>
-- hg38: https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/latest/hg38.fa.gz<br/>
-- [EV76](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/324/805/GCF_000324805.2_EV76-CN/GCF_000324805.2_EV76-CN_genomic.fna.gz)
-
 This repository already contains the compressed package of sim.fastq data set. You can unpack the file 'sim.fastq.bz2' in the directory mStrain using the bzip2 command<br/>
 ```
 cd mStrain
