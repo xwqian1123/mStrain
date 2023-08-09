@@ -80,7 +80,7 @@ get_pie <-function (){
             	ee<-c(as.numeric(percent),as.numeric(nd))
             	dd <-rbind(dd,ee)
 	    }
-                # 定制标签
+                # custom label
 #            pie(as.numeric(cc[3:5]), border="white",col=c('red','green','pink') ,label=label,main=i)
         }
     names(dd)=c("ANC", "DER","no",'node')
