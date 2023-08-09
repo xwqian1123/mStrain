@@ -13,9 +13,6 @@ TRIM='trimmomatic'
 f2path = os.path.abspath(__file__)
 fd2path = os.path.dirname(f2path)
 fd3path = os.path.dirname(fd2path)
-print("***********************************************")
-print(f2path)
-print(fd3path)
 
 # map raw to ref
 def map_refseq(input_file,out_dir,ref_seq,n,thread,k=0,kraken_db=0):
