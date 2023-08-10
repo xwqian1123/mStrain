@@ -1,11 +1,11 @@
 
 library("ggplot2")
 library("ggtree")
-library('treeio')
-library('ape')
-library('tibble')
-library('geiger')
-library('tidyr')
+library("treeio")
+library("ape")
+library("tibble")
+library("geiger")
+library("tidyr")
 
 args <- commandArgs(T)
 
