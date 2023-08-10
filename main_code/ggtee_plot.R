@@ -103,7 +103,7 @@ if (a=='FALSE'){
 	get_loc(root_node)
 	a<-get_pie()
 	colors=c("#f8766d","#02ba39","#d8d6d6")
-	pies <- nodepie(a, cols = 1:3,colors=)
+	pies <- nodepie(a, cols = 1:3,color=colors)
 	p2 <- p + geom_inset(pies, width = .05, height = .05,x = "branch")+ theme(legend.position = "right") 
 	print(p2)
 }
