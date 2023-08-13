@@ -60,8 +60,6 @@ In this work, sim.fastq, a simulated sequencing data set randomly extracted and 
 cd mStrain
 bzip2 -d sim.fastq.bz2
 ```
-or download 'sim.fastq' from NCBI and place it into the directory mStrain.<br/>
-test_data:PRJNA941032 (https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA941032)；<br/>
 
 Package 'sim.fastq.bz2' successfully unpacked, the tree structure of the directory mStrain is as follows:
 ```
