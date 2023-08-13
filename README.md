@@ -98,11 +98,11 @@ mStrain
 └── test.fq.ls
 ```
 ### 2. Run mStrain with dataset：
-Add executable permission to the script 'run_mStrain.sh' in the directory mStrain <br/>
+Add executable permission to the script 'run_mStrain.sh' in the mStrain directory <br/>
 ```
 chmod +x run_mStrain.sh
 ```
-Run the script 'run_mStrain.sh' in the directory mStrain with data set <br/>
+Run the script 'run_mStrain.sh' in the mStrain directory with data set <br/>
 ```
 ./run_mStrain.sh
 ```
