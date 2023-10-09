@@ -4,7 +4,7 @@
 ## Requirements
 ### 1. conda packages:
 |package|version    |package|version|  package|version|
-|------|------|      ------|------|    ------|------|
+|------|------      ------|------|    ------|------|
 |r-base|=3.6.3|      ggtree|=2.0.4|    jdk|=20.0.2|
 |bcftools|=1.14|     ggplot2|=3.3.1|   picard|=3.1.0|
 |samtools|>=1.15|    treeio|/|
