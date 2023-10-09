@@ -3,15 +3,15 @@
 
 ## Requirements
 ### 1. conda packages:
-|package|version|
-|------|------|
-|r-base|=3.6.3|
-|bcftools|=1.14|
-|samtools|>=1.15|
-|iqtree|>=2.2.2.7|
-|bwa|>=0.7.17|
-|bedtools|>=2.31.0|
-|Kraken2|>=2.0.9|
+|package|version|    |package|version|  |package|version|
+|------|------|      |------|------|    |------|------|
+|r-base|=3.6.3|      |ggtree|=2.0.4|    |jdk|=20.0.2|
+|bcftools|=1.14|     |ggplot2|=3.3.1|   |picard|=3.1.0|
+|samtools|>=1.15|    |treeio|/|
+|iqtree|>=2.2.2.7|   |ape|/|
+|bwa|>=0.7.17|       |tidyr|/|
+|bedtools|>=2.31.0|  |geiger|/|
+|Kraken2|>=2.0.9|    |tibble|/|
 |ImageMagick|=7.1.0_27|
 |pandas|>=2.0.3|
 |Trimmomatic|>=0.39|
