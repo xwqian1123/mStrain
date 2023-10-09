@@ -1,7 +1,7 @@
-# mStrain
+## mStrain
 mStrain, a novel Yesinia pestis strain or lineage-level identification tool that utilizes metagenomic data, is written in python with a small amount of R and linux shell. mStrain successfully identified Y. pestis at the strain/lineage level by extracting sufficient information regarding single nucleotide polymorphisms (SNPs), which can therefore be an effective tool for identification and source tracking of Y. pestis based on metagenomic data during plague outbreak.<br/>
 
-# Requirements
+## Requirements
 ### 1. conda packages:
 r-base =3.6.3 <br/>
 bcftools =1.14 <br/>
@@ -18,7 +18,7 @@ ggtree =2.0.4,  ggplot2 =3.3.1,  treeio, ape,  tidyr, geiger,  tibble <br/>
 ### 3. source code:
 [jdk-20.0.2](https://www.oracle.com/java/technologies/downloads/), [picard =3.1.0](https://github.com/broadinstitute/picard) <br/>
 
-# Installation
+## Installation
 ### 1. A conda environment named ```mStrain``` can be created and activated with:
 ```
 conda create -n mStrain python=3.9.16
@@ -45,7 +45,7 @@ NOTE:
 - Make sure the dependencies are installed successfully.
 - R packages and picard this project depends on have been packaged and placed in the mStrain/packages directory.
  
-# Validation
+## Validation
 The following validation of the mStrain was performed on the Ubuntu 23.0.4 operating system.
 ### 1. Dataset
 In this work, sim.fastq, a simulated sequencing data set randomly extracted and mixed after simulated sequencing by Yesinia pestis [EV76](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/324/805/GCF_000324805.2_EV76-CN/GCF_000324805.2_EV76-CN_genomic.fna.gz) and human genome [hg38](https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/latest/hg38.fa.gz), is used as a data set to validate mStrain. This repository already contains [sim.fastq](https://figshare.com/articles/dataset/mStrain_--_Strain-level_Identification_of_i_Yersinia_pestis_i_Using_Metagenomic_Data/23911053) data set you can unpack the file 'sim.fastq.bz2' in the mStrain directory using the bzip2 command to obtain.<br/>
@@ -99,7 +99,7 @@ Run the script 'run_mStrain.sh' in the mStrain directory with data set <br/>
 ```
 ./run_mStrain.sh
 ```
-# Usage
+## Usage
 mStrain is an extensible tool that allows the user to change the i, o, d, t, k, and k_db parameters to customize the run of mStrain.<br/>
 ### 1.
 
