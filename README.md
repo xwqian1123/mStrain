@@ -48,7 +48,7 @@ NOTE:
 ## Validation
 The following validation of the mStrain was performed on the Ubuntu 23.0.4 operating system.
 ### 1. Dataset
-In this work, sim.fastq, a simulated sequencing data set randomly extracted and mixed after simulated sequencing by Yesinia pestis [EV76](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/324/805/GCF_000324805.2_EV76-CN/GCF_000324805.2_EV76-CN_genomic.fna.gz) and human genome [hg38](https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/latest/hg38.fa.gz), is used as a data set to validate mStrain. This repository already contains [sim.fastq](https://figshare.com/articles/dataset/mStrain_--_Strain-level_Identification_of_i_Yersinia_pestis_i_Using_Metagenomic_Data/23911053) data set you can unpack the file 'sim.fastq.bz2' in the mStrain directory using the bzip2 command to obtain.<br/>
+In this work, sim.fastq, a simulated sequencing dataset randomly extracted and mixed after simulated sequencing by Yesinia pestis [EV76](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/324/805/GCF_000324805.2_EV76-CN/GCF_000324805.2_EV76-CN_genomic.fna.gz) and human genome [hg38](https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/latest/hg38.fa.gz), is used as a dataset to validate mStrain. This repository already contains [sim.fastq](https://figshare.com/articles/dataset/mStrain_--_Strain-level_Identification_of_i_Yersinia_pestis_i_Using_Metagenomic_Data/23911053) dataset you can unpack the file 'sim.fastq.bz2' in the mStrain directory using the bzip2 command to obtain.<br/>
 ```
 cd mStrain
 bzip2 -d sim.fastq.bz2
