@@ -1,5 +1,5 @@
 ## mStrain
-mStrain, a novel Yesinia pestis strain or lineage-level identification tool that utilizes metagenomic data, is written in python with a small amount of R and linux shell. mStrain successfully identified Y. pestis at the strain/lineage level by extracting sufficient information regarding single nucleotide polymorphisms (SNPs), which can therefore be an effective tool for identification and source tracking of Y. pestis based on metagenomic data during plague outbreak.<br/>
+[mStrain](https://academic.oup.com/bioinformaticsadvances/article/3/1/vbad115/7274857), a novel Yesinia pestis strain or lineage-level identification tool that utilizes metagenomic data, is written in python with a small amount of R and linux shell. mStrain successfully identified Y. pestis at the strain/lineage level by extracting sufficient information regarding single nucleotide polymorphisms (SNPs), which can therefore be an effective tool for identification and source tracking of Y. pestis based on metagenomic data during plague outbreak.<br/>
 
 ## Requirements
 ### 1. conda packages:
