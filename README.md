@@ -3,6 +3,11 @@
 
 ## Requirements
 ### 1. conda packages:
+|package|version|
+|------|------|
+|r-base|=3.6.3|
+bcftools|=1.14|
+
 r-base =3.6.3 <br/>
 bcftools =1.14 <br/>
 samtools >=1.15 <br/>
