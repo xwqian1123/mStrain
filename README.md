@@ -1,7 +1,7 @@
 # mStrain
 mStrain is a novel Yesinia pestis strain or lineage-level identification tool that utilizes metagenomic data. This tool is implemented in python with a small amount of R and linux shell. mStrain successfully identified Y. pestis at the strain/lineage level by extracting sufficient information regarding single nucleotide polymorphisms (SNPs), which can therefore be an effective tool for identification and source tracking of Y. pestis based on metagenomic data during plague outbreak.<br/>
 
-# Requirements <br/>
+# Requirements
 ## 1. conda packages:
 r-base =3.6.3 <br/>
 bcftools =1.14 <br/>
