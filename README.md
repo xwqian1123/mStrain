@@ -6,7 +6,15 @@
 |package|version|
 |------|------|
 |r-base|=3.6.3|
-bcftools|=1.14|
+|bcftools|=1.14|
+|samtools|>=1.15|
+|iqtree|>=2.2.2.7|
+|bwa|>=0.7.17|
+|bedtools|>=2.31.0|
+|Kraken2|>=2.0.9|
+|ImageMagick|=7.1.0_27|
+|pandas|>=2.0.3|
+|Trimmomatic|>=0.39|
 
 r-base =3.6.3 <br/>
 bcftools =1.14 <br/>
