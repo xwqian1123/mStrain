@@ -3,8 +3,7 @@
 
 ## Requirements
 ### 1. conda packages:
-|conda packages| 
-|------|------|
+    conda packages     r packages    source code
 |package|version      |package|version|  package|version|
 |------|------|       ------|------|    ------|------|
 |r-base|=3.6.3|       ggtree|=2.0.4|    jdk|=20.0.2|
