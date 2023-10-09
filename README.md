@@ -15,17 +15,6 @@
 |ImageMagick|=7.1.0_27|
 |pandas|>=2.0.3|
 |Trimmomatic|>=0.39|
-
-r-base =3.6.3 <br/>
-bcftools =1.14 <br/>
-samtools >=1.15 <br/>
-iqtree >=2.2.2.7 <br/>
-bwa >=0.7.17 <br/>
-bedtools >=2.31.0 <br/>
-Kraken2 >=2.0.9 <br/>
-ImageMagick =7.1.0_27 <br/>
-pandas >=2.0.3 <br/>
-Trimmomatic >=0.39 <br/>
 ### 2. r packages:
 ggtree =2.0.4,  ggplot2 =3.3.1,  treeio, ape,  tidyr, geiger,  tibble <br/>
 ### 3. source code:
