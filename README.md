@@ -43,7 +43,6 @@ Run the script 'run_install.sh' in the mStrain directory to install conda packag
 ```
 NOTE: 
 - Make sure the dependencies are installed successfully.
-- The picard package can be found at https://github.com/broadinstitute/picard.
 - R packages and picard this project depends on have been packaged and placed in the mStrain/packages directory.
  
 # Validation
