@@ -28,7 +28,7 @@ NOTE:
 - mStrain is a customizable name for a new environment created using the conda command
 - Installation, validation and usage are performed in this environment
 ### 2. Install dependencies required for mStrain <br/>
-Clone this repository to local using git <br/>
+Clone this repository to local using git
 ```
 git clone https://github.com/xwqian1123/mStrain.git
 ```
