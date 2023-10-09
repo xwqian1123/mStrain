@@ -16,7 +16,7 @@ Trimmomatic >=0.39 <br/>
 ### 2. r packages:
 ggtree =2.0.4,  ggplot2 =3.3.1,  treeio, ape,  tidyr, geiger,  tibble <br/>
 ### 3. source code:
-jdk-20.0.2, picard =3.1.0 <br/>
+[jdk-20.0.2](https://www.oracle.com/java/technologies/downloads/), picard =3.1.0 <br/>
 
 # Installation
 ### 1. A conda environment named ```mStrain``` can be created and activated with:
