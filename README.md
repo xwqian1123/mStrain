@@ -21,8 +21,7 @@ ggtree =2.0.4,  ggplot2 =3.3.1,  treeio, ape,  tidyr, geiger,  tibble <br/>
 jdk-20.0.2, picard =3.1.0 <br/>
 
 # Installation
-### 1. Create a new environment <br/>
-### 1. A conda environment named mStrain can be created and activated with:
+### 1. A conda environment named ```mStrain``` can be created and activated with:
 Create a new environment using conda <br/>
 ```
 conda create -n mStrain python=3.9.16
