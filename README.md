@@ -12,7 +12,7 @@ bedtools >=2.31.0 <br/>
 Kraken2 >=2.0.9 <br/>
 ImageMagick =7.1.0_27 <br/>
 pandas >=2.0.3 <br/>
-Trimmomatic >=0.39 
+Trimmomatic >=0.39 <br/>
 ## 2. r packages:
 ggtree =2.0.4,  ggplot2 =3.3.1,  treeio, ape,  tidyr, geiger,  tibble <br/>
 ## 3. source code:
