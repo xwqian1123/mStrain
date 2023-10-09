@@ -22,12 +22,8 @@ jdk-20.0.2, picard =3.1.0 <br/>
 
 # Installation
 ### 1. A conda environment named ```mStrain``` can be created and activated with:
-Create a new environment using conda <br/>
 ```
 conda create -n mStrain python=3.9.16
-```
-Activate the created environment<br/>
-```
 conda activate mStrain
 ```
 NOTE:
